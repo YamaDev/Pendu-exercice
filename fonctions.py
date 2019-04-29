@@ -117,7 +117,7 @@ def win_condition(secret_word):
 def end_game():
 	if points <= 1:
 		print("PERDU!!!")
-		time.sleep(2)
+		time.sleep(1)
 		print("A bientot")
 
 
